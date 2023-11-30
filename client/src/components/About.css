@@ -1,0 +1,14 @@
+.about_container{
+    min-height:120vh;
+}
+
+.main_container .right_container img{
+    width: 460px;
+    height: 650px;
+}
+@media (max-width:449px) {
+    .main_container .right_container img{
+        max-width: 300px;
+        height: 400px;
+    }
+}
