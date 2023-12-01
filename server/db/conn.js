@@ -1,5 +1,5 @@
 const mongoose=require('mongoose');
-mongoose.connect('mongodb://localhost:27017/portfolio')
+mongoose.connect(process.env.CONNECTION)
 .then(()=>{
     console.log('connection is successful')
 })
