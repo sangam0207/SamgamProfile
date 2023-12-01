@@ -1,9 +1,10 @@
 const express=require('express');
 const cors=require('cors');
-require('./db/conn');
+
 const router=require('./routes/router')
 const dotenv=require('dotenv')
 dotenv.config()
+require('./db/conn');
 const port=8007;
 const app=express();
  app.use(cors());
